@@ -1,9 +1,12 @@
 Axum static file server
 ---
 
-install
+install linux
 ```bash
-curl -O https://github.com/pourquoi/axum-static-server/ass
+# linux x86_64
+curl -o ass https://github.com/pourquoi/axum-static-server/ass-x86_64
+# arm 
+# curl -o ass https://github.com/pourquoi/axum-static-server/ass-arm
 chmod a+x ./ass
 ```
 
