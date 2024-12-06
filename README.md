@@ -4,10 +4,10 @@ Axum static file server
 install linux
 ```bash
 # linux x86_64
-curl -o ass https://github.com/pourquoi/axum-static-server/ass-x86_64
+curl -o ass -L https://github.com/pourquoi/axum-static-server/raw/refs/heads/main/ass-x86_64
 # arm 
-# curl -o ass https://github.com/pourquoi/axum-static-server/ass-arm
-chmod a+x ./ass
+# curl -o ass -L https://github.com/pourquoi/axum-static-server/raw/refs/heads/main/ass-arm
+chmod +x ./ass
 ```
 
 run
