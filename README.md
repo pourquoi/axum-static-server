@@ -1,9 +1,14 @@
 Axum static file server
 ---
 
-serve static files in ./public directory
-
+install
+```bash
+curl -O https://github.com/pourquoi/axum-static-server/ass
+chmod a+x ./ass
 ```
-cargo run
-HOST=0.0.0.0 PORT=3000 cargo run
+
+run
+```bash
+# serve static files in ./public directory
+./ass --host=127.0.0.1 --port=3000 --dir=./public
 ```
